@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blake Gillanders-Portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="preload" href="background3.jpg" as="image">
+    <link rel="prefetch" href="image-to-prefetch.jpg" as="image">
+    <link rel="preload" href="doggos.jpg" as="image">
+    <link rel="prefetch" href="image-to-prefetch.jpg" as="image">
+</head>
+
+    <main>
+        
+        <article class="Links">
+            <nav>
+                <ul>
+                    <!--<li><article>
+                        <form action="/search" method="'GET">
+                            <input type="'text" name="'query" placeholder="Search. . .">
+                                <button type="submit">Search</button>        
+                        </form> 
+                     </article></li>!-->
+                     <li><a href= Untitled-1.html>Home</a></li>
+                    <li><a href= MySkills.html>MySkills</a></li>
+                    <li><a href= projects.html>Projects</a></li>
+                    <li><a href= Contactme.html>Contact me</a></li>
+
+                </ul>
+            </nav>
+
+        </article>
+    
+        <div class="me">
+        <section>
+               
+               
+           </section>
+       
+        <h1>Blake Gillanders - Portfolio</h1>
+        
+       
+    </div>
+</main> 
+
+
+
+    
+    <body>
+      
+<div class="Aboutme">
+        
+    <h1 class="welcome">Welcome!</h1>
+    <div class="about-content">
+     <img src="received_1308073903479315.jpeg"class="imaeg"> 
+
+<p class="paragraph">Hello and welcome to my portfolio. My name is Blake Gillanders and I am a 20 year old first year student at NMIT and this is my portfolio that I have created to showcase who I am
+    what current skills I have and what skills im working towards im my current and past projects that I have done through Nmit. To the left of this paragraph you will notice a photo of
+    me Blake on the right and Pallas Andrew my fiance on the right.
+</p></div>
+
+            
+        
+       
+            <p class="whoami">who am I? Hello! my name is Blake Gillanders I'm 20 years old and have lived most of my 20 years of life in Nelson New Zealand. 
+                First of all, I would like to welcome you to my portfolio it is currently in the early stages of development as I am new coding. I made this 
+                website for my first web504 project and its turning out to be a great project for me to learn how to write in html, CSS and JavaScript (coming
+                soon). I started building this website about a week into starting my bachelor of IT studies at Nelson Marlborough institute of technology or 
+                NMIT for short but before start talking about my studies, I want to give you a backstory on my life and who I am. On august the 29th 2002 I 
+                was born in a small town called “Okiwi bay” which has an estimated population of 70 people and is located in the Marlborough sounds I don’t 
+                really remember much about it as my family moved to nelson about 6 months later after moving to nelson I went to all the “popular” nelson schools
+                my first one being Nelson central school where I had my first experiences with computers mostly playing video games but I knew from then that I
+                had a passion for computers. A few years down the road when I was 13 years old, my best mate wanted to build himself his first pc, but he didn’t
+                really have any knowledge on how computers worked or how to build them and neither did I so after a ton of research on YouTube he ordered the 
+                parts and attempted to build the computer in the end it was functional but had a lot of issues. About a year later and I managed to save up 
+                enough money to build my own pc and thankfully with a bit more research and knowledge I was able to build it perfectly. From then my real
+                interest in computers appeared I started running a small YouTube channel that at its peak had 10,000 subscribers before I gave up on it the
+                most fun part about it was learning how to use programs such as Sony Vegas pro 13 and adobe photoshop cs6 I learned some good skills from 
+                that period that I'll never forget but unfortunately as I got older and left school I had less time for computers as I had my first full time
+                job working in a factory while I was trying to figure out what I wanted to do. About a year later I met my fiancé Pallas (on the left side of 
+                the picture at top of the page) after a few months of dating we found our own place and moved in together and I made a decision to sell my
+                entire setup as I didn’t use it much at the time but just 6 months later, I regretted it. After moving in with Pallas I explored a lot of
+                career options like engineering I did 6 months as an engineer's assistant where I learned how to fabricate and weld which was really 
+                interesting but wasn’t quite for me from there, I went to a different company called “van and a man” where I was planning on getting my class 2
+                license but after a few disagreements with the boss I returned to my previous job and decided to look at my study options where I came across
+                the “bachelor of IT” course and after reading up about it seemed really interesting so I decided to apply and before I even got accepted I 
+                bought a decently powerful laptop and started playing around with websites such as “free code camp” and “code academy” shortly after that I got
+                accepted into NMIT and that pretty much leads back to now where I'm learning to code while designing this website. So, on this website you can
+                find 4 pages the home page which is the page you’re currently on next up is the “myskills” page which has a bullet point list which showcases
+                all my skills related to study and qualifications I have from work it also has an attached copy of my cv. Next page is the projects page which
+                is where I am going to be uploading all my projects from study or personal projects, I have completed all projects will be downloadable HTML
+                or PDF files and are located in different sections depending on what class they were made for. Finally, there's the contact page which has all
+                my contact methods email addresses, social media and a contact form so if you have any questions for me don’t hesitate to get in contact. Well,
+                that’s all I have to say so I hope you enjoy my website and thanks for visiting  
+            </p>
+        </div> 
+       
+    
+    </div>
+   
+
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+    <footer>
+        <div>
+            <p>Thank you for visiting my portfolio page you have reached the bottom of the projects page. If you would like to get in contact with me I have 
+                my socials and contact details listed below.
+            </p>
+            <article class="footlank">
+                <nav class="footnav">
+                    <ul>
+                        <li><a href= https://www.facebook.com/profile.php?id=100010154949455>Facebook</a></li>
+                        <li><a href= https://mail.google.com/mail/?view=cm&fs=1&to=blakegillanders@gmail.com&su=SUBJECT&body=BODY&bcc=>Gmail</a></li>
+                        <li><a href= Contactme.html>Contact me</a></li>
+                    </ul>
+                </nav>
+    
+            </article>
+    </footer>
+    
+</body>
+</html>
