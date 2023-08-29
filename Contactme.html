@@ -5,26 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blake Gillanders-Portfolio</title>
     <link href="styles.css" rel="stylesheet"/>
+    <link rel="preload" href="background3.jpg" as="image">
+    <link rel="prefetch" href="image-to-prefetch.jpg" as="image">
+    <link rel="preload" href="doggos.jpg" as="image">
+    <link rel="prefetch" href="image-to-prefetch.jpg" as="image">
 </head>
 
-    <main>
-        <div class="me">
-        <h1>Blake Gillanders - Portfolio</h1>
-        <section>
-            <article class="Links">
-                <nav>
-                    <ul>
-                    <li><a href= Untitled-1.html>Home</a></li>
-                   <li> <a href= MySkills.html>My skills</a></li>
-                    <li><a href= projects.html>My projects</a></li>
-                </ul>
-            </nav>
+<main>
+        
+    <article class="Links">
+        <nav>
+            <ul>
+                <!--<li><article>
+                    <form action="/search" method="'GET">
+                        <input type="'text" name="'query" placeholder="Search. . .">
+                            <button type="submit">Search</button>        
+                    </form> 
+                 </article></li>!-->
+                 <li><a href= Untitled-1.html>Home</a></li>
+                <li><a href= MySkills.html>MySkills</a></li>
+                <li><a href= projects.html>Projects</a></li>
+                <li><a href= Contactme.html>Contact me</a></li>
 
-            </article>
-        </section>
-       
-    </div>
-    </main>
+            </ul>
+        </nav>
+
+    </article>
+
+    <div class="me">
+    <section>
+           
+           
+       </section>
+   
+    <h1>Blake Gillanders - Portfolio</h1>
+    
+   
+</div>
+</main> 
+
     <body>
         <section class="Aboutme">
         <h1 class="cmh1">Contact me</h1>
@@ -33,40 +52,60 @@
         my email addresses, social media and a easy to use contact form located in the email collapsable section  </p>
         
         
-        <details class="email">
-            <summary>Email address's</summary>
-            <h1 class="emh1">Here is both my personal email address and my NMIT email address</h1>
-            <ul class="eadd">
-                <li><p> Heres my personal email address where im the most active on so if you have something urgent to talk to me about please contact me here</p><a href=https://mail.google.com/mail/?view=cm&fs=1&to=blakegillanders@gmail.com&su=SUBJECT&body=BODY&bcc=>My personal email: Blakegillanders@gmail.com</a> </li>
-                <li><p> Heres my NMIT study email address where you can contact me about study related questions.</p><a href=https://mail.google.com/mail/?view=cm&fs=1&to=blake-gillanders@live.nmit.ac.nz&su=SUBJECT&body=BODY&bcc=>MY NMIT email address: blake-gillanders@live.nmit.ac.nz</a></li>
-
-            </ul>
-          
-        </details>
-        
-<details class="email">
-    <summary>contact form</summary>
-            <h1 class="emh1">Or you can send me a message using the contact form below </h1>
-            <form action="/form/submit" method="post">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="first name" required><br>
-                <label for="lname">Last name</label>
-                <input type="text" id="lname" name="surname" required><br>
-                <label for="mail">E-mail Address</label>
-                <input type="text" id="mail" name="E-mail" required><br>
-                <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <div class="expandable-section2">
+            <input type="checkbox" class="expand-checkbox" id="section-toggle-2">
+            <label for="section-toggle-2" class="section-header2">
+                <h2>Email addresses</h2>
+            </label>
+            <div class="section-content">
+                <h2>Here is both my personal email address and my NMIT email address</h2>
+                <ul class="eadd">
+                    <li><p> Heres my personal email address where im the most active on so if you have something urgent to talk to me about please contact me here</p><a href=https://mail.google.com/mail/?view=cm&fs=1&to=blakegillanders@gmail.com&su=SUBJECT&body=BODY&bcc=>My personal email: Blakegillanders@gmail.com</a> </li>
+                    <li><p> Heres my NMIT study email address where you can contact me about study related questions.</p><a href=https://mail.google.com/mail/?view=cm&fs=1&to=blake-gillanders@live.nmit.ac.nz&su=SUBJECT&body=BODY&bcc=>MY NMIT email address: blake-gillanders@live.nmit.ac.nz</a></li>
     
-        <button type="submit">Submit</button>
-            </form>
-        </details>
-        <details class="email">
-            <summary>My social medias</summary>
-            <h1>Here is a link to all my social medias if you would like to contact me that way</h1>
-            <ul class="eadd">
-                <li><a href=https://www.facebook.com/profile.php?id=100010154949455>Facebook: @Blake Gillanders</a></li>
-                <li><a href=>Instagram @blakesg1420</a></li>
-            </ul>
+                </ul>
+
+                </div>
+            </div>
+    
+
+            <div class="expandable-section2">
+            <input type="checkbox" class="expand-checkbox" id="section-toggle-3">
+            <label for="section-toggle-3" class="section-header2">
+                <h2>Contact form</h2>
+            </label>
+            <div class="section-content">
+                <h2>Or you can send me a message using the contact form below </h2>
+                <form action="/form/submit" method="post">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="first name" required><br>
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="surname" required><br>
+                    <label for="mail">E-mail Address</label>
+                    <input type="text" id="mail" name="E-mail" required><br>
+                    <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        
+            <button type="submit">Send</button>
+                </form>
+
+                </div>
+            </div>
+            <div class="expandable-section2">
+                <input type="checkbox" class="expand-checkbox" id="section-toggle-4">
+                <label for="section-toggle-4" class="section-header2">
+                    <h2>Social media</h2>
+                </label>
+                <div class="section-content">
+                    <h1>Here is a link to all my social medias if you would like to contact me that way</h1>
+
+                    <ul class="eadd">
+                        <li><a href=https://www.facebook.com/profile.php?id=100010154949455>Facebook: @Blake Gillanders</a></li>
+                        <li><a href=>Instagram @blakesg1420</a></li>
+                    </ul>
+
+                    </div>
+                </div>
 
         </details>
         
