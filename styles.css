@@ -19,7 +19,7 @@
 body {
     background-color:rgba(201, 201, 201, 0.836);
     background: url(background3.jpg);
-    
+
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-size:cover;
@@ -28,7 +28,10 @@ body {
 }
 .welcome{
     text-align:center;
+    color:rgb(0, 0, 0);
     font-size:45px;
+   
+    
 }
 /*header styles*/
 .me {
@@ -42,6 +45,34 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* navigation buttons*/
+.logo{
+  color:white;
+   text-align:left;
+   font-family:grobold;
+  
+}
+.invis{
+    color:rgba(62, 62, 62, 0);
+}
+.search{
+    margin-top:8px;
+    margin-right:0px;
+}
+.searchbox{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#a7a6a6;   
+    color:white;
+    border-radius:5px;
+}
+.button{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button:hover{
+    background-color:rgba(1, 83, 150, 0.786); 
+}
 nav{
     background-color:black;
 }
@@ -89,7 +120,7 @@ nav a:hover {
     background-color: white;
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;
     box-shadow: 0px 0px 10px rgba(215, 252, 200, 0.1);
     border-radius: 5px;
 }
@@ -187,15 +218,69 @@ footer{
     margin-left: 0px;
     margin-bottom:20px;
     overflow: hidden;
+    
 }
 
-.section-header {
+.section-headera {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    color:rgb(255, 255, 255);
     align-items: center;
     padding: 10px;
-    background-color: #b6b6b6ad;
+    background-image:url(webdesign.jpeg);
+    background-size: cover;
+    background-position:center center;
     cursor: pointer;
+    
+}
+.section-headerb {
+    display: flex;
+    justify-content: left;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    background-image:url(network.jpeg);
+    background-size: contain;
+    background-position:center center;
+    cursor: pointer;
+    
+}
+.section-headerc {
+    display: flex;
+    justify-content: left;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+    background-image:url(systems.jpg);
+    background-size: contain;
+    background-position:center center;
+    cursor: pointer;
+    
+}
+.section-headerd {
+    display: flex;
+    justify-content: left;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px;
+    background-image:url(data.jpg);
+    background-size:contain;
+    background-position:center center;
+    cursor: pointer;
+    border:1px solid;
+    
+}
+.section-headere {
+    display: flex;
+    justify-content: left;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    background-image:url(personal.jpeg);
+    background-size:cover;
+    background-position:center center;
+    cursor: pointer;
+    
 }
 
 .section-content {
@@ -203,14 +288,17 @@ footer{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
+   
 }
 
 .expand-checkbox {
     display: none;
+   
 }
 
 .expand-checkbox:checked ~ .section-content {
     max-height: 1000px;
+    
 }
 .expandable-section2 {
     border: 2px solid #000000;
