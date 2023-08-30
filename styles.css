@@ -108,9 +108,23 @@ nav a:hover {
 .imaeg { /*image of pallas an I*/
     float: left; 
     max-width: 300px;
-    margin: 0 20px 20px 0;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1); ;
+    padding:5px;
+}
+.image-container {
+    float: left;
+    margin-right: 0px;
+}
+
+
+
+.imagecombo {
+    font-size: 18px;
+    border-radius:5px;
+    clear: left; /* Clear the float */
+    text-align:center;
 }
 
 .paragraph { /*text at top of page beside image*/
@@ -120,9 +134,10 @@ nav a:hover {
     background-color: white;
     padding: 20px;
     margin: 20px auto;
-    max-width: 1000px;
+    max-width: 1200px;
     box-shadow: 0px 0px 10px rgba(215, 252, 200, 0.1);
     border-radius: 5px;
+    align-content:center;
 }
 .Aboutme img {
     width: 100%;
@@ -137,8 +152,15 @@ nav a:hover {
    line-height:1.6; 
    font-size:18px;
     border:1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    background-color:#c0fe913a;  
+    padding: 5px;
+    background-color:#c0fe913a; 
+    max-width:;
+}
+.whoami{
+    border: 1px solid rgba(0, 0, 0, 0.1); ;
+    border-radius:5px;
+    background-color:#91fef71d; 
+    padding:10px;
 }
 
 /*footer section*/
